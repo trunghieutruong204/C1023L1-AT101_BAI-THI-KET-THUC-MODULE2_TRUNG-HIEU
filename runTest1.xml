@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BaiThiKetThucModule2">
+    <test name="BaiThi">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="TC_BaiThi.BaiThi" />
+        </classes>
+    </test>
+</suite>
+
